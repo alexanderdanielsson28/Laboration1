@@ -1,3 +1,55 @@
-#bodycolor{
-    background-color:yellow;
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+#container{
+    
+    height:700px;
+    background-color:silver;
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow:auto;
+}
+#header{
+       
+   width:415px;
+    margin-left:350px; 
+    height:100px;
+    background-image:url("../pics/loggName.png");
+    background-repeat:no-repeat;
+    
+    
+}
+#navigation{
+    float:left;
+}
+#content{
+    float:left;
+    	margin-left: 15%;
+	margin-right: 15%;
+    width:415px;
+    height:600px;
+}
+#forms{
+    width:400px;
+   		float:left;
+   		height:500px; 
+	
+}
+
+#dryck{
+    float:left;
+    
+}
+#antal{
+    float:left;
+}
+#dMine{
+    margin-top:12px;
+    float:left;
+}
+#dropdowndryck{
+    float:left;
+    margin-left:123px;
 }
