@@ -1,3 +1,4 @@
+
 body {
      margin: 0;
      padding: 0;
@@ -22,7 +23,13 @@ body {
     
 }
 #navigation{
+    background-color:#b1f3b7;
     float:left;
+ 
+    width:200px;
+    border-right:1px solid black;
+    border-top:1px solid black;
+  height: 200vh;
 }
 #content{
     float:left;
