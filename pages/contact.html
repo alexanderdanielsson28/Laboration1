@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<div id="container">
+    <div id="header">
+  <div id="logga">
+           
+        </div>
+    </div>
+
+    <div id="navigation">
+             <menu>
+             <ul id="sociallist"/>
+                <li id="start" class="meny"><a href="../index.html">Start</a></li>
+                <li id="lab" class="meny"><a   href="presentation.html">Presentation</a></li>
+                <li id="kon" class="meny"><a class ="active" href="contact.html">Kontakt</a></li>                                    
+                <li id="press" class="meny"><a href="laboration.html">Laborationer</a></li> 
+             </ul>
+        </menu>
+    </div>
+
+    <div id="content">
+        <div id="forms">
+        <form action="http://webproduction.standout.se/form.php" method="POST">
+
+            <Fieldset>
+
+                <legend>Fråga</legend>
+
+                <div id="dryck"> 
+                   <label>Favoritdryck:</label>
+                </div>
+                   <div id="dropdowndryck">
+                        <select name="Dryck">
+                            <option value="Kaffe" selected>Kaffe</option>
+                            <option value="Saft">Saft</option>
+                            <option value="O´boy">O´boy</option>
+                            <option value="Vatten">Vatten</option>
+                        </select>
+                    </div>    
+                
+
+                <div id="antal">
+                    <label>Hur många koppar/glas per dag:</label>
+
+                    <select name="antal">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4 eller fler</option>
+                    </select>
+                </div>
+
+                <div id="dMine">
+                    <label>Ditt bästa dryckminne:</label>
+                    <textarea rows="5" cols="30"></textarea>
+                </div>
+            </Fieldset>
+
+            <Fieldset>
+                <legend>Om du vinner tvälningen</legend>
+
+                <label>Kontakta mig via mail</label>
+                <input type="checkbox" name="g1[]" value="mail" />
+                <label> Kontakta mig via telefon</label>
+                <input type="checkbox" name="g1[]" value="telefon" />
+
+            </Fieldset>
+
+            <input type="submit" value="Skicka svar" />
+
+        </form>
+        </div>
+       
+            <a href="contact.html">Till toppen</a>
+   
+    </div>
+    <div id="footer">
+        <div id="footertext">
+            <h3>Copyright © 2006-2015 Nalaka Studio AB. All rights reserved.</h3>
+        </div>
+    </div>
+    
+</div>
+</html>

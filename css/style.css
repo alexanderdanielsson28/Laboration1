@@ -10,30 +10,37 @@ body {
     background-color:silver;
 	margin-left: 14%;
 	margin-right: 10%;
+
 	overflow:auto;
 }
 #header{
-       
-   width:415px;
-    margin-left:350px; 
+    background-color:white;       
+   width:100%;
     height:100px;
-    background-image:url("../pics/loggName.png");
-    background-repeat:no-repeat;
+   
     
     
 }
+#logga{
+     background-image:url("../pics/loggName.png");
+     background-repeat:no-repeat;
+     width:300px;
+     height:100px;
+     margin-left:405px;
+	 }
 #navigation{
-    background-color:#b1f3b7;
+    background-color:white;
     float:left;
  
-    width:200px;
-    border-right:1px solid black;
+    width:170px;
+    /*border-right:1px solid black;
     border-top:1px solid black;
-  height: 200vh;
+   height: 200vh;
+ */
 }
 #content{
     float:left;
-    	margin-left: 15%;
+    margin-left: 15%;
 	margin-right: 15%;
     width:415px;
   
@@ -42,11 +49,12 @@ body {
     float:left;
     height:100px;
    
-    border:1px solid black;
+    border-top:1px solid black;
     background-color:white;
  
-    width:978px;
-    /*margin-left:350px;*/ 
+    width:100%;
+  
+    overflow:hidden;
     
 }
 #forms{
@@ -72,5 +80,40 @@ body {
     margin-left:123px;
 }
 #footertext{
-    margin-top:60px;
+    margin-top:20px;
+}
+
+/*menu*/
+#sociallist{
+      
+        margin: 0;
+        padding:0;
+        width:159px;
+        list-style-type: none;
+        font-size: 100%;
+        background: silver;
+        border-bottom: 1px solid black;
+       margin-left:-35px;
+    }
+#sociallist a{ 
+    
+        display: block;
+        width: 135px; height:20px;
+        padding-left: 1.40em; padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        text-decoration: none;
+        border-top: 1px solid black;
+        border-right: 1px solid black; 
+        border-left: 1px solid black;
+         
+        
+     
+}    
+.active{
+    color:white; 
+    
+}
+a:hover, a:active{
+    color:blue;
+  
 }
