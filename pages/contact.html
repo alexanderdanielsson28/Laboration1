@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 </head>
 <div id="container">
     <div id="header">
@@ -30,13 +31,12 @@
 
             <Fieldset>
 
-                <legend>Fråga</legend>
+                <h2>Fråga</h2>
 
-                <div id="dryck"> 
-                   <label>Favoritdryck:</label>
-                </div>
+               
                    <div id="dropdowndryck">
-                        <select name="Dryck">
+                       <label>Favoritdryck:</label>
+                        <select name="errand">
                             <option value="Kaffe" selected>Kaffe</option>
                             <option value="Saft">Saft</option>
                             <option value="O´boy">O´boy</option>
@@ -48,27 +48,27 @@
                 <div id="antal">
                     <label>Hur många koppar/glas per dag:</label>
 
-                    <select name="antal">
+                    <select name="title">
                         <option value="1" selected>1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4 eller fler</option>
                     </select>
                 </div>
-
+                
                 <div id="dMine">
                     <label>Ditt bästa dryckminne:</label>
-                    <textarea rows="5" cols="30"></textarea>
+                    <textarea name="question" rows="5" cols="30"></textarea>
                 </div>
             </Fieldset>
 
             <Fieldset>
-                <legend>Om du vinner tvälningen</legend>
+                <legend>Om du vinner tävlingen</legend>
 
                 <label>Kontakta mig via mail</label>
-                <input type="checkbox" name="g1[]" value="mail" />
-                <label> Kontakta mig via telefon</label>
-                <input type="checkbox" name="g1[]" value="telefon" />
+                <input type="checkbox" name=contact[] value="mail" />
+                <label> Kontakta mig via </label>
+                <input type="checkbox" name=contact[] value="telefon" />
 
             </Fieldset>
 
@@ -77,7 +77,7 @@
         </form>
         </div>
        
-            <a href="contact.html">Till toppen</a>
+            <div id="topp"><a href="contact.html">Till toppen</a></div>
    
     </div>
     <div id="footer">
