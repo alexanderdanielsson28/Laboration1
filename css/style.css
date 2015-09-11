@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 
 body{
 	line-height: 1;
-    	background-image:url(../pics/wall.png);
+    /*	background-image:url(../pics/wall.png);*/
 }
 ol, ul {
 	list-style: none;
@@ -68,19 +68,19 @@ body {
     text-decoration: underline;
 }
 #container{
-    
-/*    width:980px;
+    box-shadow: 5px 5px 5px 5px  #888888; 
+    width:980px;
     
 	margin-left:20%;
 	margin-right:10%;
-*/
+
 background-color:silver;
    margin: auto;
     width: 60%;
     
     
 	overflow:auto;
-	box-shadow: 10px 10px black;
+
 }
 #header{
     background-color:white;       
@@ -105,23 +105,25 @@ background-color:silver;
 
     
 
-}     
+} 
+
 #navigation{
     background-color:white;
     float:left;
    height:122px;
     width:170px;
+    box-shadow: 5px 5px 5px 5px  #888888; 
     /*border-right:1px solid black;
     border-top:1px solid black;
    height: 200vh;
  */
 }
 #content{
-    float:left;
-    margin-left: 15%;
+    
+    margin-left:28%;
 	margin-right: 15%;
     width:415px;
-  
+    	 
 }
 #footer{
     float:left;
@@ -132,13 +134,14 @@ background-color:silver;
  
     width:100%;
   
-    overflow:hidden;
+    
   
 }
 #footertext{
     background-image:url(../pics/IconFooter.png);
     background-repeat:no-repeat;
     background-size:40px 40px;
+    
     
 }
 #forms{
@@ -183,6 +186,7 @@ background-color:silver;
 }
 #footertext{
     margin-top:20px;
+    height:50px;
 }
 
 /*menu*/
@@ -193,12 +197,12 @@ background-color:silver;
         width:200px;
         list-style-type: none;
         font-size: 100%;
-        background: silver;
+       background: silver;
         border-bottom: 1px solid black;
        margin-left:-35px;
     }
 #sociallist a{ 
-    
+        
         display: block;
         width:175px; height:20px;
         padding-left: 1.40em; padding-top: 0.25em;
@@ -211,16 +215,10 @@ background-color:silver;
         
      
 }    
-.active{
-    color:white; 
-    
-}
-a:hover, a:active{
-    color:blue;
-  
-}
+
 #menu a{
-            display:none;
+   
+             display:none;
     
     
 }
@@ -336,3 +334,48 @@ p{
 #lablink{
     pading-top:50px;
 }
+/*sprites*/
+#start{
+  background:url(../pics/sprite.png)40px -47px;
+  background-repeat:no-repeat; 
+    
+}
+#start a:hover{
+    background:url(../pics/sprite.png)39px -0px;
+      background-repeat:no-repeat;
+    
+}
+#press  {
+    background:url(../pics/sprite.png)40px -236px;
+    background-repeat:no-repeat;
+    
+    } 
+
+#press a:hover{
+    background:url(../pics/sprite.png)39px -189px;
+    background-repeat:no-repeat;
+}
+#kon{
+    background:url(../pics/sprite.png)39px -330px;
+    background-repeat:no-repeat;  
+    
+    } 
+
+#kon a:hover{
+    background:url(../pics/sprite.png)38px -283px;
+    background-repeat:no-repeat;  
+}
+#lab{
+    background:url(../pics/sprite.png)39px -143px;
+    background-repeat:no-repeat; 
+    
+    
+    } 
+
+#lab a:hover{
+    background:url(../pics/sprite.png)38.4px -96px;
+    background-repeat:no-repeat; 
+   
+}
+
+
