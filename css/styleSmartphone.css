@@ -1,0 +1,183 @@
+#container{
+  
+    width:auto;
+    
+  overflow-x:hidden;
+
+background-color:white;
+   margin: auto;
+    
+    
+    
+
+
+}
+
+#navigation 
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 10%;
+    width:auto;
+    margin-bottom:10px;
+   
+}
+#navigation li{
+      
+     margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    
+    width:auto;
+    height:100px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image:url("../pics/loggName.png");
+    background-repeat:no-repeat;
+      background-position: center; 
+}
+
+
+#content 
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  
+       
+    margin-bottom: 10px;
+       
+    padding:0;
+    background-color:silver;
+}
+#footer
+{
+    text-align: center;      
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+menu{
+    margin:0 auto;
+ 
+}
+#sociallist{
+  
+        margin: 0;
+        padding:0;
+        width:auto;
+        list-style-type: none;
+        font-size: 100%;
+        background: gray;
+        border-bottom: 1px solid black;
+     
+    }
+#sociallist a{ 
+           
+        display: block;
+        width:auto; height:25px;
+       
+        padding-bottom: 0.2em;
+        text-decoration: none;
+        border-top: 1px solid black;
+        border-right: 1px solid black; 
+        border-left: 1px solid black;
+         
+        
+     
+}   
+
+    
+/*sprites*/
+/*
+#start{
+     
+     
+  background:url(../pics/sprite.png)40px -47px;
+  background-repeat:no-repeat; 
+    
+}
+#start a:hover{
+    background:url(../pics/sprite.png)39px -0px;
+      background-repeat:no-repeat;
+    
+}
+#press  {
+    background:url(../pics/sprite.png)40px -236px;
+    background-repeat:no-repeat;
+    
+    } 
+
+#press a:hover{
+    background:url(../pics/sprite.png)39px -189px;
+    background-repeat:no-repeat;
+}
+#kon{
+    background:url(../pics/sprite.png)39px -330px;
+    background-repeat:no-repeat;  
+    
+    } 
+
+#kon a:hover{
+    background:url(../pics/sprite.png)38px -283px;
+    background-repeat:no-repeat;  
+}
+#lab{
+    background:url(../pics/sprite.png)39px -143px;
+    background-repeat:no-repeat; 
+    
+    
+    } 
+
+#lab a:hover{
+    background:url(../pics/sprite.png)38.4px -96px;
+    background-repeat:no-repeat; 
+   
+}
+*/
+#textLorem img{
+    float:left;
+    width:100px;
+    height:100px;
+}
+#linktop{
+    padding-bottom:10px;
+}
+#bunny{
+ 
+	max-width: 100%;
+	height: auto;
+
+}
+  
+#lab2{
+    width:auto;
+}
+#table {
+          
+        border:1px solid;
+        margin:1%;
+        width:400px;
+        border-right:none;
+        border-top:none;
+        display:  table;
+        border-bottom:none;
+        background-image:url(../pics/background/green.jpg);
+}
+#table td,th {
+
+ text-align: center;
+ line-height:30px;
+ border:1px solid;
+  border-left:none;
+}
+.scrollit{
+    
+overflow-x:scroll;
+       
+}
+
