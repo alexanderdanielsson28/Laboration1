@@ -73,7 +73,8 @@ body {
     width:980px;
     margin-left:20%;
 	margin-right:10%;
-	background-image:url("../pics/background/cloud.jpg");
+	background-image:url("../pics/background/silver.jpg");
+	background-size:cover;
 	background-repeat:no-repeat;
     margin: auto;
     
@@ -202,7 +203,7 @@ body {
         width:200px;
         list-style-type: none;
         font-size: 100%;
-       background: silver;
+       background-image:url(../pics/background/silver.jpg);
         border-bottom: 1px solid black;
        margin-left:-35px;
     }
@@ -301,7 +302,7 @@ margin-left: 60px;
         width:400px;
         border:1px solid;
         margin:1%;
-        background-image:url(../pics/background/green.jpg);
+        background-image:url(../pics/background/silver.jpg);
         border-right:none;
         border-top:none;
         display:  table;

@@ -48,11 +48,11 @@ background-color:white;
     margin-right: auto;
     width: auto;
   
-       
+       background-image:url("../pics/background/silver.jpg");
     margin-bottom: 10px;
        
     padding:0;
-    background-color:silver;
+   
 }
 #footer
 {
@@ -60,6 +60,7 @@ background-color:white;
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
+    border-bottom:1px solid gray;
 }
 menu{
     margin:0 auto;
@@ -72,7 +73,7 @@ menu{
         width:auto;
         list-style-type: none;
         font-size: 100%;
-        background: gray;
+        background-image:url(../pics/background/silver.jpg);
         border-bottom: 1px solid black;
      
     }
@@ -166,7 +167,7 @@ menu{
         border-top:none;
         display:  table;
         border-bottom:none;
-        background-image:url(../pics/background/green.jpg);
+        background-image:url(../pics/background/silver.jpg);
 }
 #table td,th {
 
@@ -179,5 +180,9 @@ menu{
     
 overflow-x:scroll;
        
+}
+/*contact-pages*/
+#forms{
+    background-image:url(../pics/background/silver.jpg);
 }
 
