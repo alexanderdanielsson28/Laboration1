@@ -70,7 +70,7 @@ body {
     
     
     box-shadow: 5px 5px 5px 5px  #888888; 
-    width:980px;
+    max-width:980px;
     margin-left:20%;
 	margin-right:10%;
 	background-image:url("../pics/background/silver.jpg");
@@ -127,7 +127,7 @@ body {
     
     margin-left:28%;
 	margin-right: 15%;
-    width:420px;
+    max-width:420px;
     	 
 }
 
@@ -316,6 +316,11 @@ margin-left: 60px;
  line-height:30px;
  border:1px solid;
   border-left:none;
+}
+.scrollit{
+    
+overflow-x:scroll;
+       
 }
 #h1Index{
     padding-top:40px;
