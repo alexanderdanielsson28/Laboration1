@@ -37,9 +37,9 @@
                 <h2>Fråga</h2>
 
                
-                   <div id="dropdowndryck">
+                    <div id="dropdowndryck">
                        <label>Favoritdryck:</label>
-                        <select name="errand">
+                        <select autofocus name="errand">
                             <option value="Kaffe" selected>Kaffe</option>
                             <option value="Saft">Saft</option>
                             <option value="O´boy">O´boy</option>
@@ -51,7 +51,7 @@
                 <div id="antal">
                     <label>Hur många koppar/glas per dag:</label>
 
-                    <select name="title">
+                    <select  name="title">
                         <option value="1" selected>1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -60,23 +60,30 @@
                 </div>
                 
                 <div id="dMine">
-                    <label>Ditt bästa dryckminne:</label>
-                    <textarea name="question" rows="5" cols="30"></textarea>
+                    <textarea placeholder="Ange ditt bästa dryckminne..." name="question" rows="5" cols="30" required></textarea>
                 </div>
             </Fieldset>
 
             <Fieldset>
-                <legend>Om du vinner tävlingen</legend>
-
-                <label>Kontakta mig via mail</label>
-                <input type="checkbox" name=contact[] value="mail" />
-                <label> Kontakta mig via </label>
-                <input type="checkbox" name=contact[] value="telefon" />
-
+                    <legend>Om du vinner tävlingen</legend>
+                <div class="check1">
+                    <label>Kontakta mig via mail</label>
+                    <input type="checkbox" name=contact[] value="mail">
+                </div>   
+                <div class="check1">
+                    <label> Kontakta mig via</label> 
+                    <input type="checkbox" name=contact[] value="telefon">
+                   
+                </div>
+                <div class="check1">
+        
+                    <input type="email" name="inputmail" placeholder="Ange din email..."required   </div>
+                 </div>
             </Fieldset>
 
-            <input type="submit" value="Skicka svar" />
-
+            <div id="submit">
+                <input type="submit" value="Skicka svar" />
+            </div>
         </form>
         </div>
        
